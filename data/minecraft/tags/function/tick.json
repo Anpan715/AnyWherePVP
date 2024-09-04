@@ -1,0 +1,8 @@
+{
+  "values": [
+    "awpvp:tick/main",
+    "awpvp:tick/ffa",
+    "awpvp:tick/dm",
+    "awpvp:tick/elim"
+  ]
+}

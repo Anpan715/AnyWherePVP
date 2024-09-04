@@ -5,9 +5,6 @@
  # Referred to Chuzume.
 ##
 
-#プレイヤーとして実行
-    execute as @a at @s run function awpvp:tick/items
-
 #プレイヤーが死亡したらそのプレイヤーとしてrespawn_timerを実行
     execute as @a[scores={Awpvp.Deathcount=1..}] run function awpvp:respawn/timer
 

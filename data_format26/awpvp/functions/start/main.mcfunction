@@ -20,4 +20,4 @@ scoreboard objectives setdisplay list
 #アーマースタンド召喚＆タイマーセット
 summon armor_stand ~ ~1 ~ {Marker:1b,Tags:["Awpvp.KitPos"]}
 scoreboard players set dummyplayer Awpvp.Timerstart 7
-function awpvp:start/timer_start
+function awpvp:start/timer

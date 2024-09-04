@@ -58,9 +58,9 @@ scoreboard objectives add Awpvp.ffa_WinnerScore dummy
 
 scoreboard objectives add Awpvp.ffa_Timer dummy
 scoreboard objectives add Awpvp.ffa_TimerSetting dummy
-scoreboard objectives add awpvp_ffa_timerdisplay dummy
+scoreboard objectives add Awpvp.ffa_TimerDisplay dummy
 scoreboard players set dummyplayer Awpvp.ffa_TimerSetting 3600
-scoreboard players set dummyplayer awpvp_ffa_timerdisplay 3
+scoreboard players set dummyplayer Awpvp.ffa_TimerDisplay 3
 
 scoreboard objectives add Awpvp.Mode dummy
 scoreboard players set dummyplayer Awpvp.Mode 0

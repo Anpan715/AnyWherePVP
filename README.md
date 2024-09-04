@@ -4,6 +4,7 @@
 
 ワールドの好きな箇所にて`/function awpvp:setup`を実行してください。
 次に`/function awpvp:getadmin`を実行し、手に入れた防具立てを戦闘したいマップの復活地点にしたい場所に配置してください。
+アンインストールする場合は`/function awpvp:uninstall`を実行してから削除してください。
 
 ## Hubの使い方
 

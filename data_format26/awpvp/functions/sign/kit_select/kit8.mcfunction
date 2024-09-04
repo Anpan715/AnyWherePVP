@@ -5,7 +5,7 @@
  # Created by anpan715.
 ##
 
-scoreboard players set @s Awpvp.Kit 8
-title @s actionbar ["",{"text":"Kit8","color":"green"},{"text":"\u3092\u9078\u629e\u3057\u307e\u3057\u305f\u3002","color":"gold"}]
+scoreboard players set @s awpvp_kit 8
+title @s actionbar ["",{"text":"Kit8","bold":true,"color":"green"},{"text":"\u3092\u9078\u629e\u3057\u307e\u3057\u305f\u3002","color":"gold"}]
 playsound minecraft:ui.button.click block @s
-scoreboard players display numberformat @s Awpvp.Kit fixed {"text":"Kit8","color":"blue"}
+scoreboard players display numberformat @s awpvp_kit fixed {"text":"Kit8","bold":true,"color":"blue"}

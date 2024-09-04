@@ -1,5 +1,5 @@
 ##
- # elim_start.mcfunction
+ # elim.mcfunction
  # 
  #
  # Created by anpan715.

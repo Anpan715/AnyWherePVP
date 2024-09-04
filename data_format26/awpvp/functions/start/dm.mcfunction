@@ -1,5 +1,5 @@
 ##
- # dm_start.mcfunction
+ # dm.mcfunction
  # 
  #
  # Created by anpan715.

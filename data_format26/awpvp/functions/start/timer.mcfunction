@@ -6,7 +6,7 @@ title @a times 0 40 0
 title @a title {"score":{"name":"dummyplayer","objective":"Awpvp.Timerstart"},"color":"gold"}
 execute if score dummyplayer Awpvp.Timerstart matches 1.. as @a at @a run playsound minecraft:block.anvil.place ambient @s
 
-execute if score dummyplayer Awpvp.Timerstart matches 1.. run schedule function awpvp:start/timer_start 1s
+execute if score dummyplayer Awpvp.Timerstart matches 1.. run schedule function awpvp:start/timer 1s
 execute if score dummyplayer Awpvp.Timerstart matches 1.. run return 1
 
 #アイテム付与
@@ -39,10 +39,10 @@ execute as @a if score dummyplayer Awpvp.Map matches 4 run tp @e[limit=1,sort=ra
 
 #各モードごとの開始処理＆ingameを1に
 scoreboard players set dummyplayer Awpvp.Ingame 1
-execute if score dummyplayer Awpvp.Mode matches 0 run function awpvp:start/dm_start
-execute if score dummyplayer Awpvp.Mode matches 1 run function awpvp:start/elim_start
-execute if score dummyplayer Awpvp.Mode matches 2 run function awpvp:start/ffa_start
+execute if score dummyplayer Awpvp.Mode matches 0 run function awpvp:start/dm
+execute if score dummyplayer Awpvp.Mode matches 1 run function awpvp:start/elim
+execute if score dummyplayer Awpvp.Mode matches 2 run function awpvp:start/ffa
 
 #開始タイトルと効果音
-function awpvp:start/gamestart_title
+function awpvp:start/title
 execute as @a at @a run playsound entity.ender_dragon.growl ambient @s

@@ -1,18 +1,5 @@
 {
   "pack": {
     "pack_format": 48,
-    "supported_formats": [
-      48,
-      26
-    ],
     "description": "どこでも戦いたい戦闘狂の皆様へ。By Anpan715"
-  },
-  "overlays": {
-    "entries": [
-      {
-        "formats": 26,
-        "directory": "data_format26"
-      }
-    ]
   }
-}

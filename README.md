@@ -10,7 +10,7 @@
 > [!IMPORTANT]
 > __1階の利用にもOPが必要です。__  
 > 全員へのopの付与が厳しい場合はop所持者がスコアボードをsetしたり、更新看板をクリックしてあげてください。  
-> プレイヤーのKit設定 `/scoreboard players set *PlayerID* awpvp_kit *KitNo.*`  
+> プレイヤーのKit設定 `/scoreboard players set *PlayerID* Awpvp.Kit *KitNo.*`  
 
 ### 1階  
 
